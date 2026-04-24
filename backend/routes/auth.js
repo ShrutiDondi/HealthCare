@@ -17,7 +17,7 @@ router.post('/register', [
   body('email').isEmail().normalizeEmail().withMessage('Valid email required'),
   body('password').isLength({ min: 6 }).withMessage('Password must be at least 6 characters'),
   body('role').isIn(['patient', 'doctor', 'admin']).withMessage('Invalid role'),
-  body('otp').exists().withMessage('OTP is required')
+  body('otp').optional()
 ], async (req, res) => {
   try {
     const errors = validationResult(req);
@@ -37,6 +37,19 @@ router.post('/register', [
       about,
       otp
     } = req.body;
+
+    // If OTP is not provided, trigger OTP send (client should then re-submit with otp)
+    if (!otp) {
+      // Avoid sending OTP for an already-registered email
+      const existingUser = await User.findOne({ email });
+      if (existingUser) {
+        return res.status(400).json({ message: 'User already exists' });
+      }
+
+      // Reuse the OTP route logic via internal HTTP call is overkill; instead ask the client to call /api/otp/send-otp.
+      // Keeping this behavior explicit avoids hidden SMTP requirements in auth/register.
+      return res.status(400).json({ message: 'OTP is required. Please request an OTP first.' });
+    }
 
     // Verify OTP securely on the backend
     const otpData = otpStore[email];

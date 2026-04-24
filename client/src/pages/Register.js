@@ -77,14 +77,14 @@ const Register = () => {
     // If OTP hasn't been sent yet, request it
     if (!otpSent) {
       try {
-        await otpAPI.sendOtp(normalizedEmail);
+        const response = await otpAPI.sendOtp(normalizedEmail);
         setFormData((prev) => ({
           ...prev,
           email: normalizedEmail
         }));
         setOtpSent(true);
         setOtpEmail(normalizedEmail);
-        setSuccess(`OTP sent to ${normalizedEmail}. Please check your inbox.`);
+        setSuccess(response.data?.message || `OTP sent to ${normalizedEmail}. Please check your inbox.`);
       } catch (err) {
         setError(err.response?.data?.message || 'Failed to send OTP. Please check your email address.');
       } finally {

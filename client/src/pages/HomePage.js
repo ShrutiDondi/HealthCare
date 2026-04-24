@@ -63,7 +63,7 @@ const specializationMeta = {
     color: '#e11d48',
     accent: '#fb7185',
     surface: '#fff1f2',
-    description: 'Heart and blood vessel care',
+    description: 'Heart and cardiovascular health. Our cardiologists specialize in diagnosing and treating heart conditions, managing high blood pressure, and preventing cardiovascular diseases.',
     tag: 'Heart health',
     image: createSpecialtyImage('❤', 'Cardiology', '#fb7185', '#be123c', '#fecdd3'),
   },
@@ -72,7 +72,7 @@ const specializationMeta = {
     color: '#7c3aed',
     accent: '#c084fc',
     surface: '#f5f3ff',
-    description: 'Skin, hair and nail treatment',
+    description: 'Skin, hair and nail care. Dermatologists treat various skin conditions, provide cosmetic solutions, and offer preventive care for optimal skin health.',
     tag: 'Skin care',
     image: createSpecialtyImage('✦', 'Dermatology', '#c084fc', '#6d28d9', '#ddd6fe'),
   },
@@ -81,7 +81,7 @@ const specializationMeta = {
     color: '#0891b2',
     accent: '#22d3ee',
     surface: '#ecfeff',
-    description: 'Brain, spine and nerve support',
+    description: 'Brain, spine and nervous system disorders. Neurologists diagnose and treat conditions affecting the brain, spinal cord, and peripheral nerves.',
     tag: 'Neuro care',
     image: createSpecialtyImage('◌', 'Neurology', '#22d3ee', '#155e75', '#a5f3fc'),
   },
@@ -90,7 +90,7 @@ const specializationMeta = {
     color: '#d97706',
     accent: '#fbbf24',
     surface: '#fffbeb',
-    description: 'Bones, joints and mobility',
+    description: 'Bones, joints and musculoskeletal health. Orthopedic specialists treat fractures, joint problems, sports injuries, and provide rehabilitation services.',
     tag: 'Bone & joint',
     image: createSpecialtyImage('✚', 'Orthopedics', '#fbbf24', '#b45309', '#fde68a'),
   },
@@ -99,7 +99,7 @@ const specializationMeta = {
     color: '#059669',
     accent: '#34d399',
     surface: '#ecfdf5',
-    description: 'Children and teen healthcare',
+    description: 'Children and adolescent healthcare. Pediatricians provide comprehensive care including vaccinations, growth monitoring, and treatment for all childhood illnesses.',
     tag: 'Kids care',
     image: createSpecialtyImage('◡', 'Pediatrics', '#6ee7b7', '#059669', '#bbf7d0'),
   },
@@ -108,7 +108,7 @@ const specializationMeta = {
     color: '#c026d3',
     accent: '#e879f9',
     surface: '#fdf4ff',
-    description: 'Mental wellness and therapy',
+    description: 'Mental health and psychological wellness. Psychiatrists treat mental health disorders and provide therapy and medication management support.',
     tag: 'Mind health',
     image: createSpecialtyImage('☼', 'Psychiatry', '#f0abfc', '#a21caf', '#f5d0fe'),
   },
@@ -117,7 +117,7 @@ const specializationMeta = {
     color: '#4f46e5',
     accent: '#818cf8',
     surface: '#eef2ff',
-    description: 'Imaging and diagnostic scans',
+    description: 'Medical imaging and diagnostic scans. Radiologists use advanced imaging techniques to diagnose diseases and guide treatment planning effectively.',
     tag: 'Medical imaging',
     image: createSpecialtyImage('◎', 'Radiology', '#818cf8', '#3730a3', '#c7d2fe'),
   },
@@ -126,7 +126,7 @@ const specializationMeta = {
     color: '#dc2626',
     accent: '#f87171',
     surface: '#fef2f2',
-    description: 'Planned and advanced procedures',
+    description: 'Surgical procedures and advanced care. Surgeons perform planned and emergency surgical interventions across various medical specialties.',
     tag: 'Surgical care',
     image: createSpecialtyImage('✚', 'Surgery', '#f87171', '#b91c1c', '#fecaca'),
   },
@@ -135,7 +135,7 @@ const specializationMeta = {
     color: '#7c3aed',
     accent: '#a78bfa',
     surface: '#f5f3ff',
-    description: 'Urinary and reproductive care',
+    description: 'Urinary and reproductive health. Urologists treat conditions of the urinary system and male reproductive organs with specialized expertise.',
     tag: 'Uro care',
     image: createSpecialtyImage('◔', 'Urology', '#a78bfa', '#6d28d9', '#ddd6fe'),
   },
@@ -144,7 +144,7 @@ const specializationMeta = {
     color: '#db2777',
     accent: '#f472b6',
     surface: '#fdf2f8',
-    description: "Women's health support",
+    description: "Women's reproductive health and wellness. Gynecologists provide comprehensive care including pregnancy care and reproductive health management.",
     tag: 'Women care',
     image: createSpecialtyImage('❀', 'Gynecology', '#f9a8d4', '#be185d', '#fbcfe8'),
   },
@@ -153,7 +153,7 @@ const specializationMeta = {
     color: '#0284c7',
     accent: '#38bdf8',
     surface: '#f0f9ff',
-    description: 'Vision and eye treatment',
+    description: 'Vision and eye care. Ophthalmologists diagnose and treat eye conditions, perform surgery, and provide vision correction solutions.',
     tag: 'Eye care',
     image: createSpecialtyImage('◉', 'Ophthalmology', '#38bdf8', '#0369a1', '#bae6fd'),
   },
@@ -162,7 +162,7 @@ const specializationMeta = {
     color: '#0f766e',
     accent: '#2dd4bf',
     surface: '#f0fdfa',
-    description: 'Ear, nose and throat care',
+    description: 'Ear, nose and throat care. ENT specialists treat conditions affecting hearing, balance, breathing, and swallowing functions.',
     tag: 'ENT care',
     image: createSpecialtyImage('◐', 'ENT', '#5eead4', '#0f766e', '#99f6e4'),
   },
@@ -171,7 +171,7 @@ const specializationMeta = {
     color: '#ea580c',
     accent: '#fb923c',
     surface: '#fff7ed',
-    description: 'Dental, gum and oral health',
+    description: 'Dental and oral health. Dentists provide preventive care, dental treatment, cosmetic procedures, and oral health education.',
     tag: 'Dental care',
     image: createSpecialtyImage('✺', 'Dentistry', '#fdba74', '#c2410c', '#fed7aa'),
   },
@@ -180,7 +180,7 @@ const specializationMeta = {
     color: '#2563eb',
     accent: '#60a5fa',
     surface: '#eff6ff',
-    description: 'Primary care for everyday health',
+    description: 'Primary care and general health. General physicians provide comprehensive healthcare for all ages and manage various health conditions.',
     tag: 'Primary care',
     image: createSpecialtyImage('✚', 'General Medicine', '#60a5fa', '#1d4ed8', '#bfdbfe'),
   },
@@ -232,10 +232,8 @@ const HomePage = () => {
   const navigate = useNavigate();
   const { isAuthenticated } = useAuth();
   const [specializations, setSpecializations] = useState([]);
-  const [selectedSpecialization, setSelectedSpecialization] = useState('');
-  const [doctors, setDoctors] = useState([]);
+  const [selectedSpecialty, setSelectedSpecialty] = useState('All Doctors');
   const [loadingSpecializations, setLoadingSpecializations] = useState(true);
-  const [loadingDoctors, setLoadingDoctors] = useState(false);
   const [error, setError] = useState('');
 
   useEffect(() => {
@@ -254,28 +252,6 @@ const HomePage = () => {
     loadSpecializations();
   }, []);
 
-  useEffect(() => {
-    const loadDoctors = async () => {
-      setLoadingDoctors(true);
-      try {
-        const response = await doctorsAPI.getDoctors(selectedSpecialization);
-        setDoctors(response.data || []);
-        setError('');
-      } catch (err) {
-        console.error('Error fetching doctors:', err);
-        setError(
-          selectedSpecialization
-            ? 'Unable to load doctors for this specialty.'
-            : 'Unable to load registered doctors right now.'
-        );
-      } finally {
-        setLoadingDoctors(false);
-      }
-    };
-
-    loadDoctors();
-  }, [selectedSpecialization]);
-
   const visibleSpecializations = useMemo(() => specializations.slice(0, 10), [specializations]);
   const allDoctorsMeta = useMemo(
     () => ({
@@ -290,20 +266,25 @@ const HomePage = () => {
     []
   );
 
-  const averageRating = useMemo(() => {
-    if (!doctors.length) {
-      return '0.0';
-    }
-
-    const total = doctors.reduce((sum, doctor) => sum + Number(doctor.ratings || 0), 0);
-    return (total / doctors.length).toFixed(1);
-  }, [doctors]);
-
-  const activeHeadline = selectedSpecialization
-    ? `${selectedSpecialization} care, easier to access`
-    : 'Find the right doctor with more clarity and less stress';
+  const activeHeadline = 'Find the right doctor with more clarity and less stress';
 
   const getSpecializationMeta = (specialization) => specializationMeta[specialization] || allDoctorsMeta;
+
+  const handleSpecialtyClick = (specialization) => {
+    if (specialization === null || specialization === '') {
+      setSelectedSpecialty('All Doctors');
+    } else {
+      setSelectedSpecialty(specialization);
+    }
+  };
+
+  const handleViewDoctors = () => {
+    if (selectedSpecialty && selectedSpecialty !== 'All Doctors') {
+      navigate(`/specialty/${encodeURIComponent(selectedSpecialty)}`);
+    } else {
+      navigate('/doctors');
+    }
+  };
 
   const handleBook = (doctorId) => {
     if (isAuthenticated) {
@@ -415,17 +396,12 @@ const HomePage = () => {
               <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1.5} flexWrap="wrap" useFlexGap>
                 <Chip
                   icon={<LocalHospitalIcon />}
-                  label={`${doctors.length} doctors visible`}
+                  label={`${specializations.length} specialties`}
                   sx={{ bgcolor: 'rgba(255,255,255,0.14)', color: '#ffffff' }}
                 />
                 <Chip
                   icon={<MedicalServicesIcon />}
                   label={`${specializations.length} specialties`}
-                  sx={{ bgcolor: 'rgba(255,255,255,0.14)', color: '#ffffff' }}
-                />
-                <Chip
-                  icon={<StarIcon />}
-                  label={`${averageRating} average rating`}
                   sx={{ bgcolor: 'rgba(255,255,255,0.14)', color: '#ffffff' }}
                 />
               </Stack>
@@ -563,20 +539,14 @@ const HomePage = () => {
             <Grid container spacing={2.5}>
               <Grid item xs={12} sm={6} md={4} lg={3}>
                 <Card
-                  onClick={() => setSelectedSpecialization('')}
+                  onClick={() => handleSpecialtyClick(null)}
                   sx={{
                     cursor: 'pointer',
                     height: '100%',
                     overflow: 'hidden',
-                    border:
-                      selectedSpecialization === ''
-                        ? `2px solid ${allDoctorsMeta.color}`
-                        : '1px solid rgba(148, 163, 184, 0.16)',
+                    border: selectedSpecialty === 'All Doctors' ? `2px solid ${allDoctorsMeta.color}` : '1px solid rgba(148, 163, 184, 0.16)',
                     background: '#ffffff',
-                    boxShadow:
-                      selectedSpecialization === ''
-                        ? '0 22px 42px rgba(37, 99, 235, 0.18)'
-                        : '0 10px 24px rgba(15, 23, 42, 0.06)',
+                    boxShadow: selectedSpecialty === 'All Doctors' ? '0 22px 42px rgba(37, 99, 235, 0.18)' : '0 10px 24px rgba(15, 23, 42, 0.06)',
                     transition: 'transform 0.25s ease, box-shadow 0.25s ease',
                     '&:hover': {
                       transform: 'translateY(-6px)',
@@ -592,34 +562,22 @@ const HomePage = () => {
                       backgroundPosition: 'center',
                     }}
                   />
-                  <CardContent sx={{ p: 2.5 }}>
-                    <Stack direction="row" justifyContent="space-between" alignItems="flex-start" spacing={1.5}>
-                      <Avatar
-                        sx={{
-                          bgcolor: allDoctorsMeta.surface,
-                          color: allDoctorsMeta.color,
-                          width: 56,
-                          height: 56,
-                          border: `1px solid ${allDoctorsMeta.accent}55`,
-                          boxShadow: '0 12px 24px rgba(37, 99, 235, 0.14)',
-                        }}
-                      >
-                        {allDoctorsMeta.icon}
-                      </Avatar>
-                      <Chip
-                        label={allDoctorsMeta.tag}
-                        size="small"
-                        sx={{
-                          bgcolor: allDoctorsMeta.surface,
-                          color: allDoctorsMeta.color,
-                          fontWeight: 700,
-                        }}
-                      />
-                    </Stack>
-                    <Typography sx={{ fontWeight: 800, fontSize: '1rem', mt: 1.8 }}>All Doctors</Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ mt: 0.8, minHeight: 42 }}>
-                      {allDoctorsMeta.description}
-                    </Typography>
+                  <CardContent sx={{ p: 2.5, textAlign: 'center' }}>
+                    <Avatar
+                      sx={{
+                        bgcolor: allDoctorsMeta.surface,
+                        color: allDoctorsMeta.color,
+                        width: 56,
+                        height: 56,
+                        border: `1px solid ${allDoctorsMeta.accent}55`,
+                        boxShadow: '0 12px 24px rgba(37, 99, 235, 0.14)',
+                        mx: 'auto',
+                        mb: 1.5,
+                      }}
+                    >
+                      {allDoctorsMeta.icon}
+                    </Avatar>
+                    <Typography sx={{ fontWeight: 800, fontSize: '1rem' }}>All Doctors</Typography>
                   </CardContent>
                 </Card>
               </Grid>
@@ -630,20 +588,14 @@ const HomePage = () => {
                 return (
                   <Grid item xs={12} sm={6} md={4} lg={3} key={specialization}>
                     <Card
-                      onClick={() => setSelectedSpecialization(specialization)}
+                      onClick={() => handleSpecialtyClick(specialization)}
                       sx={{
                         cursor: 'pointer',
                         height: '100%',
                         overflow: 'hidden',
-                        border:
-                          selectedSpecialization === specialization
-                            ? `2px solid ${meta.color}`
-                            : '1px solid rgba(148, 163, 184, 0.16)',
+                        border: selectedSpecialty === specialization ? `2px solid ${meta.color}` : '1px solid rgba(148, 163, 184, 0.16)',
                         background: '#ffffff',
-                        boxShadow:
-                          selectedSpecialization === specialization
-                            ? `0 22px 42px ${meta.color}26`
-                            : '0 10px 24px rgba(15, 23, 42, 0.06)',
+                        boxShadow: selectedSpecialty === specialization ? `0 22px 42px ${meta.color}26` : '0 10px 24px rgba(15, 23, 42, 0.06)',
                         transition: 'transform 0.25s ease, box-shadow 0.25s ease',
                         '&:hover': {
                           transform: 'translateY(-6px)',
@@ -659,34 +611,22 @@ const HomePage = () => {
                           backgroundPosition: 'center',
                         }}
                       />
-                      <CardContent sx={{ p: 2.5 }}>
-                        <Stack direction="row" justifyContent="space-between" alignItems="flex-start" spacing={1.5}>
-                          <Avatar
-                            sx={{
-                              bgcolor: meta.surface,
-                              color: meta.color,
-                              width: 56,
-                              height: 56,
-                              border: `1px solid ${meta.accent}55`,
-                              boxShadow: `0 12px 24px ${meta.color}22`,
-                            }}
-                          >
-                            {meta.icon}
-                          </Avatar>
-                          <Chip
-                            label={meta.tag}
-                            size="small"
-                            sx={{
-                              bgcolor: meta.surface,
-                              color: meta.color,
-                              fontWeight: 700,
-                            }}
-                          />
-                        </Stack>
-                        <Typography sx={{ fontWeight: 800, fontSize: '1rem', mt: 1.8 }}>{specialization}</Typography>
-                        <Typography variant="body2" color="text.secondary" sx={{ mt: 0.8, minHeight: 42 }}>
-                          {meta.description}
-                        </Typography>
+                      <CardContent sx={{ p: 2.5, textAlign: 'center' }}>
+                        <Avatar
+                          sx={{
+                            bgcolor: meta.surface,
+                            color: meta.color,
+                            width: 56,
+                            height: 56,
+                            border: `1px solid ${meta.accent}55`,
+                            boxShadow: `0 12px 24px ${meta.color}22`,
+                            mx: 'auto',
+                            mb: 1.5,
+                          }}
+                        >
+                          {meta.icon}
+                        </Avatar>
+                        <Typography sx={{ fontWeight: 800, fontSize: '1rem' }}>{specialization}</Typography>
                       </CardContent>
                     </Card>
                   </Grid>
@@ -696,115 +636,88 @@ const HomePage = () => {
           )}
         </Box>
 
-        <Box sx={{ mb: 3 }}>
-          <Typography variant="overline" sx={{ color: 'primary.main', fontWeight: 800, letterSpacing: 1.2 }}>
-            Doctor directory
-          </Typography>
+        {/* Specialty Description Section */}
+        {selectedSpecialty && (
           <Box
             sx={{
-              display: 'flex',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              gap: 2,
-              flexWrap: 'wrap',
-              mb: 1,
+              mb: 6,
+              p: { xs: 3, md: 4 },
+              borderRadius: '24px',
+              background: selectedSpecialty === 'All Doctors'
+                ? `linear-gradient(135deg, ${allDoctorsMeta.color}15 0%, ${allDoctorsMeta.accent}10 100%)`
+                : `linear-gradient(135deg, ${getSpecializationMeta(selectedSpecialty).color}15 0%, ${getSpecializationMeta(selectedSpecialty).accent}10 100%)`,
+              border: selectedSpecialty === 'All Doctors'
+                ? `2px solid ${allDoctorsMeta.color}40`
+                : `2px solid ${getSpecializationMeta(selectedSpecialty).color}40`,
+              transition: 'all 0.3s ease',
             }}
           >
-            <Typography variant="h4" sx={{ fontWeight: 800 }}>
-              {selectedSpecialization ? `${selectedSpecialization} specialists` : 'Recommended doctors to explore'}
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2.5, mb: 2 }}>
+              <Avatar
+                sx={{
+                  width: 64,
+                  height: 64,
+                  bgcolor: selectedSpecialty === 'All Doctors'
+                    ? `${allDoctorsMeta.color}20`
+                    : `${getSpecializationMeta(selectedSpecialty).color}20`,
+                  color: selectedSpecialty === 'All Doctors'
+                    ? allDoctorsMeta.color
+                    : getSpecializationMeta(selectedSpecialty).color,
+                  boxShadow: selectedSpecialty === 'All Doctors'
+                    ? `0 12px 24px ${allDoctorsMeta.color}22`
+                    : `0 12px 24px ${getSpecializationMeta(selectedSpecialty).color}22`,
+                }}
+              >
+                {selectedSpecialty === 'All Doctors'
+                  ? allDoctorsMeta.icon
+                  : getSpecializationMeta(selectedSpecialty).icon}
+              </Avatar>
+              <Box>
+                <Typography variant="overline" sx={{
+                  color: selectedSpecialty === 'All Doctors' ? allDoctorsMeta.color : getSpecializationMeta(selectedSpecialty).color,
+                  fontWeight: 800
+                }}>
+                  Selected Specialty
+                </Typography>
+                <Typography variant="h3" sx={{ fontWeight: 800, color: 'text.primary' }}>
+                  {selectedSpecialty}
+                </Typography>
+              </Box>
+            </Box>
+
+            <Typography
+              variant="body1"
+              sx={{
+                color: 'text.secondary',
+                lineHeight: 1.8,
+                mb: 3,
+                fontSize: '1.05rem',
+              }}
+            >
+              {selectedSpecialty === 'All Doctors'
+                ? allDoctorsMeta.description
+                : getSpecializationMeta(selectedSpecialty).description}
             </Typography>
-            {selectedSpecialization ? (
-              <Button variant="text" onClick={() => setSelectedSpecialization('')}>
-                Show all doctors
-              </Button>
-            ) : null}
+
+            <Button
+              variant="contained"
+              size="large"
+              endIcon={<ArrowForwardIcon />}
+              onClick={handleViewDoctors}
+              sx={{
+                background: selectedSpecialty === 'All Doctors'
+                  ? `linear-gradient(135deg, ${allDoctorsMeta.color} 0%, ${allDoctorsMeta.accent} 100%)`
+                  : `linear-gradient(135deg, ${getSpecializationMeta(selectedSpecialty).color} 0%, ${getSpecializationMeta(selectedSpecialty).accent} 100%)`,
+                '&:hover': {
+                  background: selectedSpecialty === 'All Doctors'
+                    ? `linear-gradient(135deg, ${allDoctorsMeta.accent} 0%, ${allDoctorsMeta.color} 100%)`
+                    : `linear-gradient(135deg, ${getSpecializationMeta(selectedSpecialty).accent} 0%, ${getSpecializationMeta(selectedSpecialty).color} 100%)`,
+                },
+              }}
+            >
+              View Doctors in {selectedSpecialty}
+            </Button>
           </Box>
-          <Typography color="text.secondary" sx={{ maxWidth: 760 }}>
-            Review available doctors, compare their experience and fees, then open full profiles before booking.
-          </Typography>
-        </Box>
-
-        {loadingDoctors ? (
-          <Box sx={{ display: 'flex', justifyContent: 'center', py: 6 }}>
-            <CircularProgress />
-          </Box>
-        ) : doctors.length === 0 ? (
-          <Card>
-            <CardContent sx={{ py: 5, textAlign: 'center' }}>
-              <Typography color="text.secondary">
-                {selectedSpecialization
-                  ? 'No doctors available in this specialty yet.'
-                  : 'No registered doctors are available yet.'}
-              </Typography>
-            </CardContent>
-          </Card>
-        ) : (
-          <Grid container spacing={3}>
-            {doctors.map((doctor) => (
-              <Grid item xs={12} md={6} lg={4} key={doctor._id}>
-                <Card
-                  sx={{
-                    height: '100%',
-                    background: 'linear-gradient(180deg, rgba(255,255,255,0.98) 0%, rgba(248,250,252,0.98) 100%)',
-                  }}
-                >
-                  <CardContent sx={{ p: 3 }}>
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 2, mb: 2 }}>
-                      <Avatar
-                        src={doctor.image}
-                        sx={{
-                          width: 66,
-                          height: 66,
-                          bgcolor: 'primary.main',
-                          boxShadow: '0 12px 24px rgba(37, 99, 235, 0.18)',
-                        }}
-                      >
-                        {doctor.name?.charAt(0)}
-                      </Avatar>
-                      <Box>
-                        <Typography variant="h6" sx={{ fontWeight: 700 }}>
-                          Dr. {doctor.name}
-                        </Typography>
-                        <Typography color="primary.main" sx={{ fontWeight: 700 }}>
-                          {doctor.specialization}
-                        </Typography>
-                      </Box>
-                    </Box>
-
-                    <Stack direction="row" spacing={1} alignItems="center" sx={{ mb: 1.8 }}>
-                      <StarIcon sx={{ color: '#f59e0b', fontSize: 20 }} />
-                      <Typography variant="body2" sx={{ fontWeight: 700 }}>
-                        {doctor.ratings || 0}
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        ({doctor.totalReviews || 0} reviews)
-                      </Typography>
-                    </Stack>
-
-                    <Stack direction="row" spacing={1} sx={{ mb: 2, flexWrap: 'wrap' }} useFlexGap>
-                      <Chip label={`${doctor.experience} yrs experience`} size="small" />
-                      <Chip label={`Rs. ${doctor.consultationFee}`} size="small" color="primary" />
-                    </Stack>
-
-                    <Divider sx={{ my: 2 }} />
-
-                    <Typography variant="body2" color="text.secondary" sx={{ mb: 2.5 }}>
-                      View the full profile to learn more about this doctor before confirming an appointment.
-                    </Typography>
-
-                    <Stack direction={{ xs: 'column', sm: 'row' }} spacing={1.5}>
-                      <Button variant="outlined" fullWidth onClick={() => navigate(`/doctor/${doctor._id}`)}>
-                        View Profile
-                      </Button>
-                      <Button variant="contained" fullWidth onClick={() => handleBook(doctor._id)}>
-                        {isAuthenticated ? 'Book Now' : 'Login to Book'}
-                      </Button>
-                    </Stack>
-                  </CardContent>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
         )}
       </Container>
     </Box>

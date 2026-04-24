@@ -102,7 +102,7 @@ const Specializations = () => {
   }, []);
 
   const handleSpecializationClick = (specialization) => {
-    navigate(`/doctors?specialization=${encodeURIComponent(specialization)}`);
+    navigate(`/specialty/${encodeURIComponent(specialization)}`);
   };
 
   const filteredSpecializations = specializations.filter(spec =>

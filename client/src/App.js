@@ -12,6 +12,7 @@ import PatientDashboard from './pages/PatientDashboard';
 import DoctorDashboard from './pages/DoctorDashboard';
 import AdminDashboard from './pages/AdminDashboard';
 import Specializations from './pages/Specializations';
+import SpecialtyDoctors from './pages/SpecialtyDoctors';
 import DoctorsList from './pages/DoctorsList';
 import DoctorProfile from './pages/DoctorProfile';
 import BookAppointment from './pages/BookAppointment';
@@ -196,6 +197,7 @@ function AppRoutes() {
       <Route path="/login" element={!isAuthenticated ? <Login /> : <Navigate to={`/${user?.role}-dashboard`} />} />
       <Route path="/register" element={!isAuthenticated ? <Register /> : <Navigate to={`/${user?.role}-dashboard`} />} />
       <Route path="/specializations" element={<Specializations />} />
+      <Route path="/specialty/:specialty" element={<SpecialtyDoctors />} />
       <Route path="/doctors" element={<DoctorsList />} />
       <Route path="/doctor/:id" element={<DoctorProfile />} />
 

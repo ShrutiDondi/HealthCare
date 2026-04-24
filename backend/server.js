@@ -1,8 +1,8 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const { router: otpRoutes } = require("./routes/otp");
 const cors = require('cors');
-require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
 const doctorRoutes = require('./routes/doctors');
